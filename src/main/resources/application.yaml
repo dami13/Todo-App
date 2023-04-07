@@ -1,0 +1,7 @@
+spring:
+  main.banner-mode: off
+  h2.console:
+    enabled: true
+    path: '/console'
+  jpa.hibernate.ddl-auto: validate
+task.template.allowMultipleTasks: false
